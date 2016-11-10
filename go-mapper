@@ -1,0 +1,33 @@
+package go-mapper
+
+type mapFuncInt func (int)
+
+func MapperInt(sl []int,mf  mapFuncInt) {
+	for _,i := range(sl) {
+		mf(i)
+	}
+}
+
+type mapFuncString func (string)
+
+func MapperString(sl []string,mf  mapFuncString) {
+	for _,i := range(sl) {
+		mf(i)
+	}
+}
+
+type mapFuncFloat func (float)
+
+func MapperFlaot(sl []float,mf  mapFuncFloat) {
+	for _,i := range(sl) {
+		mf(i)
+	}
+}
+
+type mapFuncRune func (rune)
+
+func MapperRune(sl []rune,mf  mapFuncRune) {
+	for _,i := range(sl) {
+		mf(i)
+	}
+}
