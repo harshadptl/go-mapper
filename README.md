@@ -7,11 +7,18 @@ package main
 
 import (
 	"fmt"
-  "github.com/harshadptl/go-mapper
+	"github.com/harshadptl/go-mapper
 )
 
 func main() {
 	go-mapper.MapperInt([]int{1,2,3}, func(i int){fmt.Println(i)})
 }
 
+```
+
+```
+Output:
+1
+2
+3
 ```
